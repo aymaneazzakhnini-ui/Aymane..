@@ -1,23 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site web</title>
-    <link rel="stylesheet" href="./index.css">
+    <title>Mon Site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <div class="rond">
-        <img src="./image.png" alt="">
-    </div>
-    <div class="rond">
-        <img src="./image.png" alt="">
-    </div>
+    <header>
+        <h1>Mon Site</h1>
 
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#about">À propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
+    <main>
 
-    <script src="./index.js"></script>
-    
+        <section id="accueil" class="hero">
+            <h2>Bienvenue sur mon site 👋</h2>
+            <p>Un site simple créé avec HTML et CSS.</p>
+            <button>Découvrir</button>
+        </section>
+
+        <section id="about" class="about">
+            <h2>À propos</h2>
+            <p>
+                Ceci est un exemple de site web simple.
+                Tu peux modifier le texte, les couleurs et les images
+                comme tu veux.
+            </p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+
+            <form>
+                <input type="text" placeholder="Votre nom">
+                <input type="email" placeholder="Votre email">
+                <textarea placeholder="Votre message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Mon Site - Tous droits réservés</p>
+    </footer>
+
 </body>
 </html>
